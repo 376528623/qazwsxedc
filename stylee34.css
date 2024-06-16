@@ -1,0 +1,65 @@
+/* Сброс стилей */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+
+/* Стилизация заголовка */
+
+.main-title4 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Стилизация навигационной панели */
+
+.main-nav4 {
+    background-color: #007bff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+pre {
+    font-size: 12pt;
+}
+
+.main-nav4 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.main-nav4 a:hover {
+    background-color: #777;
+}
+
+
+/* Стилизация блока с кодом */
+
+.code-snippet4 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+    overflow-x: auto;
+}
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+}

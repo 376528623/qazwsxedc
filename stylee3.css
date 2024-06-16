@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Стилизация заголовка */
+
+.main-title3 {
+    color: #333;
+    background-color: #e7e7e7;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-nav3 a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.main-nav3 a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Стилизация блока с кодом */
+
+.code-snippet3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+}

@@ -1,0 +1,73 @@
+/* Сброс стилей */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Основные стили */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Стили для навигационной панели */
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.main a {
+    text-decoration: none;
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main a:hover {
+    background-color: #003d82;
+}
+
+pre {
+    font-size: 12pt;
+}
+
+
+/* Стили для блока с кодом */
+
+p code {
+    display: block;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.navigation a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}

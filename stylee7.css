@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title7 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-nav7 {
+    background-color: #007bff;
+    overflow: hidden;
+}
+
+.main-nav7 a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-nav7 a:hover {
+    background-color: #ddd;
+    background-color: #007bff;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    display: block;
+    white-space: pre-wrap;
+}
+
+.code-snippet7 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+pre {
+    font-size: 12pt;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+}
+
+.navigation a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Добавьте дополнительные стили здесь */
