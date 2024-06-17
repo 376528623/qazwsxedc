@@ -10,8 +10,24 @@ body {
     color: #333;
 }
 
-pre {
-    font-size: 12pt;
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16pt;
+    margin-left: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    margin-left: 350px;
+}
+
+section {
+    width: 1200px;
+    text-align: justify;
+    margin-left: 100px;
 }
 
 .main-nav {
@@ -21,7 +37,7 @@ pre {
 
 .navigation a {
     color: #fff;
-    background-color: #007bff;
+    background-color: #5b6e83;
     padding: 10px 15px;
     margin: 0 5px;
     text-decoration: none;
@@ -33,7 +49,7 @@ pre {
     display: inline-block;
     padding: 10px 15px;
     margin: 5px;
-    background-color: #0084ff;
+    background-color: #5b6e83;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -41,7 +57,7 @@ pre {
 }
 
 .main-nav a:hover {
-    background-color: #0056b3;
+    background-color: #5b6e83;
 }
 
 .code-snippet {
